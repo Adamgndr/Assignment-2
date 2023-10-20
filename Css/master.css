@@ -1,0 +1,156 @@
+*{
+ margin:0;
+ padding:0;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:#fff;
+}
+header{
+    display: flex;
+    width: 100%;
+    height:6em;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    color:#000;
+    background-color:#fcb;
+    width: 140px;
+    text-align: center;
+    box-shadow: 9px 11px 2px #aaa,-1px -1px 2px #aaa;
+    border-radius:3px;
+    transition: ease 3s;
+    cursor: pointer;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+header h1:hover{
+    background-color:#fff;
+    width: 140px;
+    text-align: center;
+    transition: ease 1s;
+}
+.continer{
+    display: flex;
+    width:100%;
+    margin-top:15px;
+    justify-content:space-around;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    width:30%;
+    height: 260px;
+    border-radius:5px;
+    box-shadow:  0px 0px 4px #aaa,9px 11px 2px #aaa;
+    justify-content: flex-end;
+    align-content:space-around;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.section h2{
+    color:#000;
+    height:20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right:15px;
+    background-color:#fcb;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #fcb ;
+    transition: ease 1s;
+}
+h2:hover{
+    background-color:#fcfbfa;
+    border: 1px solid #000;
+    transition: ease 1s;
+}
+.section > .par{
+    width:100%;
+    display: flex;
+    background-color: azure;
+    height:200px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+p{
+    padding: 10px;
+}
+
+
+/* ----- media screen ipad ----- */
+
+@media (min-width:768px) and (max-width:991px){
+
+    .continer{
+    flex-wrap: wrap
+    }
+    .section{ 
+        flex-grow: 1;
+        width: 30%;
+        margin: 15px 22px;  
+        align-content:space-around;
+  
+    }
+    .continer .three{
+        flex-basis: 100%;
+    }
+    p{
+        font-size: 18px
+      }
+}
+   
+/* ----- media screen phone ---- */
+
+@media (max-width:767px){
+    
+    .continer{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+    }
+    .section{
+        width:80%;
+        margin-top:50px;
+    }
+    
+    header{
+         width:100%;
+    }
+    p{
+        /* overflow: hidden; */
+        font-size: 15px;
+
+      }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
