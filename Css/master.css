@@ -29,7 +29,7 @@ header h1{
 }
 header h1:hover{
     background-color:#fff;
-    width: 140px;
+    width: 160px;
     text-align: center;
     transition: ease 1s;
 }
