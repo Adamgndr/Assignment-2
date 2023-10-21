@@ -50,6 +50,7 @@ header h1:hover{
     align-content:space-around;
     cursor: pointer;
     padding: 8px;
+    margin-bottom:50px;
 }
 
 .section h2{
